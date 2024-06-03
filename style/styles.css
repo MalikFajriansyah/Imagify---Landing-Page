@@ -1,0 +1,241 @@
+*,
+html,
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #282525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+}
+
+.menu {
+    list-style: none;
+    margin-right: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+.banner-container {
+    width: 100%;
+    height: 740px;
+    background-image: url('../assets/bggunung.png');
+    background-size: cover;
+    background-position: 69%;
+}
+
+.text-container {
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-left: 80px;
+    padding-top: 300px;
+    font-family: Bebas Nue, sans-serif;
+}
+
+.about-us {
+    height: 650px;
+    padding-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    color: #282525;
+    font-family: Bebas Nue, sans-serif;
+}
+
+.container-about {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.text-about {
+    width: 50%;
+    margin-left: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.list-features {
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.discover{
+    background-color: #282525;
+}
+.textdiscover{
+  color: whitesmoke;
+  font-family: Bebas Nue, sans-serif;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container-galery{
+  max-width: 1224px;
+  width: 90%;
+  margin: auto;
+  padding: 40px, 0;
+}
+.photo-galery{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+@media(max-width:768px){
+  .photo-galery{
+    flex-direction: column;
+  }
+}
+
+.container-form{
+  background-color: whitesmokes;
+  margin: 80px;
+  height: 450px;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .grid-item {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .grid-item :hover {
+    color: aquamarine;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  
+  .item2 {
+    grid-column: 3;
+    grid-row: 1 / span 2;
+  }
+
+  .item3 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+  }
+  
+  .item5 {
+    grid-column: 1 / span 2;
+    grid-row: 3 / span 2;
+  }
+
+  .item7 {
+    grid-column: 3 / span 2;
+  }
+
+.container-contact{
+  display: flex;
+  margin: 80px;
+  color: #282525;
+  font-family: Poppins;
+  font-weight: 900;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-form{
+  flex: 1;
+  padding: 20px;
+}
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.contact-form button{
+  padding: 10px 20px;
+  background-color: #282525;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.connect{
+  flex: 1;
+  padding: 20px;
+}
+.connect h2{
+  margin-bottom: 20px;
+}
+.social{
+  display: flex;
+  margin-left: 280px;
+}
+.social a{
+  display: inline-block;
+}
+.social img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.notification {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: whitesmoke;
+  color: #282525;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+.copyright{
+  background-color: #282525;
+  padding: 20px;
+}
+.copyright p{
+  color: whitesmoke;
+  font-family: Bebas Nue, sans-serif;
+  text-align: center;
+  size: 20px;
+}
